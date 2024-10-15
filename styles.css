@@ -1,0 +1,61 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: #333;
+  }
+  
+  .custom-navbar .navbar-brand {
+    color: #f84464 !important;
+    font-weight: bold;
+  }
+  
+  .custom-navbar .nav-link {
+    color: #fff !important;
+  }
+  
+  .custom-navbar .btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .custom-navbar .btn-outline-light:hover {
+    background-color: #f84464;
+    border-color: #f84464;
+  }
+  
+  /* Movie Cards Hover Effect */
+  #movieCards .card {
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #movieCards .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Optional: Card Image Styling */
+  #movieCards .card img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #f8f9fa;
+  }
+  
+  footer .text-reset:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional Styles for "Book Now" Button */
+  #movieCards .btn-primary {
+    background-color: #f84464;
+    border-color: #f84464;
+  }
+  
+  #movieCards .btn-primary:hover {
+    background-color: #d73258;
+    border-color: #d73258;
+  }
+  
